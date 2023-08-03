@@ -8,13 +8,16 @@ var kDarkColorScheme = ColorScheme.fromSeed(
     seedColor: Color.fromARGB(255, 16, 50, 47), brightness: Brightness.dark);
 
 void main() {
+  //   WidgetsFlutterBinding.ensureInitialized();
+  // SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp])
+  //     .then((fn) => runApp(const MyApp()));
   runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // This widget is the root of your application.
+  
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
